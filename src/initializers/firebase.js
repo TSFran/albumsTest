@@ -8,3 +8,7 @@ const config = {
   storageBucket: 'albums-test-react.appspot.com',
   messagingSenderId: '148538828305'
 };
+
+firebase.initializeApp(config);
+
+export default firebase;
